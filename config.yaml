@@ -1,0 +1,6 @@
+rtsp:
+  url: "rtsp://116.62.11.13:8554/live/test"
+rtmp_pull:
+  url: "rtmp://116.62.11.13:1935/live/pull"
+rtmp_push:
+  url: "rtmp://116.62.11.13:1935/live/push"
