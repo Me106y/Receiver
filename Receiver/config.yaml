@@ -1,5 +1,8 @@
 rtsp:
   url: "rtsp://116.62.11.13:8554/live/test" # RTSP流地址
 rtmp:
-  url: "rtmp://116.62.11.13:1935/live/test"
-save_path: "./video"
+  url: 'rtmp://116.62.11.13:1935/live/test' # 拉流地址
+
+rtmp_push:
+  url: 'rtmp://116.62.11.13:1936/live/push' #推流地址
+
